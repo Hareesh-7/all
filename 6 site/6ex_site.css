@@ -1,0 +1,36 @@
+body {    margin: 0;padding: 0; }
+.mrq1 {    background-color: hsl(240, 65%, 43%);color: white;padding: 5px;font-size: 15px;  }
+.div1 {    background-color: white;height: 120px;width: 100%;position:fixed;padding: 0; margin: 0;z-index: 999;  }
+.div1_2_1 {    padding: 0 25px;width: 20%;  }
+.div1_2_2 {    float: right;font-size: 18px;color: darkblue;font-weight: bold;margin-top: -65px;    }
+.div1_2_2 ul li {    display: inline;margin: 0 30px;    }
+.div1_2_2 ul a {    text-decoration: none;color: darkred;   }
+.div2 {    height: 200px;width: 100%;margin: 0 0 0 0;padding-top: 80px;background-size: cover;color: darkgreen; }
+@keyframes hiii {
+    0% { background-image: url(/Users/mhari/Desktop/Software/Project_Sites_main/Hintington_Ingalls_Industries/Huntington_Ingalls_Industries_-_Americas_Largest_Shipbuilding_Company_files/aircraft-carrier-slider-1600x790-144dpi.jpg);}
+    25% {   background-image: url(/Users/mhari/Desktop/Software/Project_Sites_main/Hintington_Ingalls_Industries/Huntington_Ingalls_Industries_-_Americas_Largest_Shipbuilding_Company_files/lha-10-slider-1600x790-144dpi.jpg);}   
+    50% {   background-image: url(/Users/mhari/Desktop/Software/Project_Sites_main/Hintington_Ingalls_Industries/Huntington_Ingalls_Industries_-_Americas_Largest_Shipbuilding_Company_files/destroyer-slider-1600x790-144dpi.jpg);} 
+    75% {   background-image: url(/Users/mhari/Desktop/Software/Project_Sites_main/Hintington_Ingalls_Industries/Huntington_Ingalls_Industries_-_Americas_Largest_Shipbuilding_Company_files/proteus_usv1600.jpg);}
+    100% {  background-image: url(/Users/mhari/Desktop/Software/Project_Sites_main/Hintington_Ingalls_Industries/Huntington_Ingalls_Industries_-_Americas_Largest_Shipbuilding_Company_files/unmanned-1600x790-144dpi.jpg);}
+}
+
+.div2 img {    width: 100%;    }
+.div2 div {    font-size: 100px;margin-top: -400px;width: 100%; }
+.fas {    color: rgba(214, 156, 20, 0.979);   }
+.fas:hover {    color: red;    }
+.ic2 {  float: 90%;padding-left: 91%;   }
+.div3 {    width: 100%;padding: 150px 0 100px 0 ;margin: 550px 10px 50px 0px;background-color: rgb(228, 228, 228);   }
+.div3_1 {    width: 24%;float: right;padding-right: 150px ;     }
+.div3_2 {    width: 60%;padding-left: 120px;    }
+.div3_2 img {   }
+.div4 {     width: 100%;padding-top: 117px;    }
+.div4 h3 {      text-align: center;background-color: dimgrey;height: auto;font-size: 28px;   }
+.div4 div {     width: 25%;display: inline;padding-left:80px;   }
+.div4 div img {     width: 400px; height: 280px; padding: 5px;margin: auto 5px;  }
+.div5 {     width: 100%;padding-top: 115px;    }
+.div5 h3 {      text-align: center;height: auto;font-size: 30px;background-color: gray;    }
+.div5 img {     width: 40%;padding-right: 10%;float: right;  }
+.div5 div {     width: 40%;float: left;padding-left: 10%;height: 324px;}
+.div6 {    width: 100%;padding-top: 320px;    }
+.h36 {      text-align: center;background-color: green;    }
+.div6 div p {    text-align: center;   }

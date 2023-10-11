@@ -1,0 +1,851 @@
+Bootstrap:-
+it is front-end/client side framework for developing a responsive websites.
+it is includes HTML and CSS based design templates
+it is opensource
+Bootstrap was developed by Mark Otto and Jacob Thornton at Twitter
+
+responsive:
+A website is called responsive website which can automatically adjust itself to look good on all devices, from smart phones to desktops etc.
+
+support:
+desktop, labtop, tab, mobile etc.
+
+First download Bootstrap plugin and jquery plugin
+We will now include the style sheet is bootstrap.css.
+
+<link rel=”stylesheet” href=”css/bootstrap.css”  type=”text/css”/>
+Now we will include all the required JavaScript files. Firstly, JQuery file.
+<script src="js/jquery-1.10.1.min.js"></script>
+
+Then we will include the Bootstrap file.
+ <script src=”js/bootstrap.js”></script>
+
+ <script tag>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+We will set the meta character to Devices. Mobile-first styles are part of the core framework.
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+
+The initial-scale=1 part sets the initial zoom level when the page is first loaded by the browser.
+
+
+Bootstrap has a class called “container”, which we will use as our parent wrapper. 
+Container:- it is used to set the contents margins dealing with the responsive behaviors of your layout.
+There are two container classes in Bootstrap:
+container
+container-fluid
+The .container class provides a responsive fixed width container
+The .container-fluid class provides a full width container, spanning the entire width of the viewport
+
+Grid: a grid is a structure (usually two-dimensional) made up of a series of intersecting straight (vertical, horizontal) lines used to structure the content.
+
+Bootstrap Grid System
+The Bootstrap Grid System allows up to 12 columns across the page.
+
+Bootstrap Grid System is responsive and the columns are re-arranged automatically according to the screen size.
+
+Grid Classes:
+There are four classes in Bootstrap Grid System:
+xs (for phones)
+sm (for tablets)
+md (for desktops)
+lg (for larger desktops)
+You can combine the above classes to create more dynamic and flexible layouts.
+
+Basic Structure of a Bootstrap Grid:
+
+<div class="row">  
+  <div class="col-*-* col-md-3"></div>  
+</div>  
+<div class="row">  
+  <div class="col-*-*"></div>  
+  <div class="col-*-*"></div>  
+  <div class="col-*-*"></div>  
+</div>  
+<div class="row">  
+  ...  
+</div>  
+
+Bootstrap Text/Typography:
+HTML headings (<h1> to <h6>)
+<h1>--<h6>--similar to html
+
+HTML paragraph 
+HTML p tag is used to define a paragraph in a webpage.
+
+<small> <small> element is used to create a lighter, secondary text in any heading:
+<mark></mark> element to highlight text.
+<abbr></abbr> element to abbrevation title.
+<code></code> element to highlight text.
+<kbd></kbd> element to highlight text.
+<blockquote>--left border 4px; reverse--right
+<pre>--well border and scrollbar
+
+Contextual Colors(text(word) color) and Backgrounds
+
+The classes for text colors are:
+it is display color only Text color
+ .text-muted--cement color
+ .text-primary--darkblue
+ .text-success--green
+ .text-info--blue
+ .text-warning--orange
+ .text-danger---red
+ 
+ Backgrounds color:
+ The classes for background colors are
+ it is display color only background color
+ .bg-primary--darkblue
+ .bg-success--green
+ .bg-info--blue
+ .bg-warning--orange
+ .bg-danger---red
+ 
+
+.text-left	Indicates left-aligned text	
+.text-center	Indicates center-aligned text	
+.text-right	Indicates right-aligned text	
+.text-justify	Indicates justified text	
+.text-nowrap	Indicates no wrap text	
+.text-lowercase	Indicates lowercased text	
+.text-uppercase	Indicates uppercased text	
+.text-capitalize	Indicates capitalized text	
+.initialism	Displays the text inside an <abbr> element in a slightly smaller font size	
+
+.list-unstyled	Removes the default list-style and left margin on list items (works on both <ul> and <ol>). This class only applies to immediate children list items (to remove the default list-style from any nested lists, apply this class to any nested lists as well)	
+.list-inline	Places all list items on a single line	
+.dl-horizontal	Lines up the terms (<dt>) and descriptions (<dd>) in <dl> elements side-by-side. Starts off like default <dl>s, but when the browser window expands, it will line up side-by-side	
+.pre-scrollable	Makes a <pre> element scrollable
+
+
+Table:
+Bootstrap tables by using different classes to style them
+The .table class is used to add basic styling to a table on border line bottom and padding an bottom.
+table-bordered:complted border display
+Striped Rows
+The .table-striped class adds alernate color gray display to a table:
+Bordered table:
+ .table-bordered class is used to borders on all sides of the table and cells
+ 
+Hover rows Table:
+The .table-hover class is used to a hover state(highlight) on table rows.
+
+Condensed Table
+The .table-condensed class makes a table more compact by cutting cell padding in half(50%):
+Contextual Classes
+Contextual classes can be used to color table rows (<tr>) or table cells (<td>):
+.active--gray, .success--green,.info-blue,.warning--orange,.danger--red
+
+Responsive Tables
+The .table-responsive class creates a responsive table
+
+
+Image Shapes
+Rounded Corners:
+.img-rounded class adds rounded corners to an image
+
+Circle:
+.img-circle class shapes the image to a circle
+
+Thumbnail:
+.img-thumbnail class 
+class shapes the image to a thumbnail display inline box
+
+Responsive:
+.img-responsive class 
+it is change width 100%
+
+
+Bootstrap Jumbotron
+class="jumbotron"
+jumbotron specifies a big box for getting extra to some special content or information. 
+It is displayed as a grey box with rounded corners. It can also enlarge the font sizes of the text inside it.
+i.e more space
+
+ wells are used to add a rounded border around an element with a gray background color and some padding. It is like a container that displays the content. i.e less space
+
+The class .well is used with <div> element to add well.
+
+well-sm well-lg
+
+Alerts
+Bootstrap provides an easy way to create predefined alert messages:
+alert alert-success--green,  info--blue, warning--orange, danger--red
+
+Button
+Bootstrap provides different styles of buttons:
+
+btn--grey
+btn-default--border--grey and white
+btn-primary--blue
+.btn-success--green
+.btn-info--ligth blue
+.btn-warning--organe
+.btn-danger--red
+.btn-link--blue with highlight
+
+Button Sizes
+Bootstrap provides four button sizes:
+.btn-lg
+.btn-md
+.btn-sm
+.btn-xs
+
+btn-block--A block level button spans the entire width of the parent element.
+
+Active/Disabled Buttons
+A button can be set to an active (appear pressed) or a disabled (unclickable) state:
+
+
+Button Groups
+Bootstrap allows you to group a series of buttons together (on a single line) in a button group:
+<div class="btn-group">
+<button type="button" class="btn btn-info active">Basic</button>
+<button type="button" class="btn btn-info disabled">Basic</button>
+</div>
+
+.btn-group-lg|sm|xs to size all buttons
+
+Vertical Button Groups
+Bootstrap also supports vertical button groups:
+btn-group-vertical
+
+Badges
+Badges are numerical indicators (highlight)
+<a href="#">News <span class="badge">5</span></a><br>
+Label:
+Labels are used to provide additional information
+<h1>Example <span class="label label-default">New</span></h1>
+color: label-success,  label-info, label-primary, label-danger, label-warning
+Panels
+A panel in bootstrap is a bordered box with some padding around its content:
+
+<div class="panel panel-default">
+<div class="panel-heading">Panel Heading</div>
+  <div class="panel-body">A Basic Panel</div>
+  <div class="panel-footer">Panel Footer</div>
+</div>
+
+Panel Group
+To group many panels together, wrap a <div> with class .panel-group around them.
+<div class="panel-group">
+  <div class="panel panel-default">
+  <div class="panel-heading">Panel Heading</div>
+    <div class="panel-body">Panel Content</div>
+  </div>
+  <div class="panel panel-default">
+  <div class="panel-heading">Panel Heading</div>
+    <div class="panel-body">Panel Content</div>
+  </div>
+</div>
+
+
+Dropdown
+A dropdown menu is a toggleable menu that allows the user to choose one value from a predefined list
+
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+	<li class="divider"></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+</div>
+
+The .dropdown class indicates a dropdown menu.
+
+To open the dropdown menu, use a button or a link with a class of .dropdown-toggle and the data-toggle="dropdown" attribute.
+
+The .caret class creates a caret arrow icon (), which indicates that the button is a dropdown.
+
+Add the .dropdown-menu class to a <ul> element to actually build the dropdown menu.
+
+Dropdown Position : it is click display right side of list dropdown, 
+<div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+  <span class="caret"></span></button>
+ <ul class="dropdown-menu dropdown-menu-right">
+    <li><a href="#">HTML</a></li>
+	<li class="divider"></li>
+    <li><a href="#">CSS</a></li>
+	<li class="divider"></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+</div>
+
+dropup-->it is click top of list menu 
+dropdown menu to expand upwards instead of downwards
+<div class="dropup">
+  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+  <span class="caret"></span></button>
+ 
+ <ul class="dropdown-menu">
+    <li><a href="#">HTML</a></li>
+	<li class="divider"></li>
+    <li><a href="#">CSS</a></li>
+	<li class="divider"></li>
+    <li><a href="#">JavaScript</a></li>
+  </ul>
+</div>
+
+Basic Collapsible
+Collapsibles are usefull you want to hide and show of content:
+1) collapse
+<button data-toggle="collapse" data-target=".demo">Collapsible</button>
+<div id="demo" class="collapse demo">
+Lorem ipsum dolor text....
+</div>
+2) panel also use collapse
+<div class="panel panel-info">
+<div class="panel-heading"> <a data-toggle="collapse" href=".collapse1">Collapsible</a> </div>
+ <div id="collapse1" class="panel-collapse collapse collapse1">
+<div class="panel-body"> 
+Lorem ipsum dolor text....
+ </div>
+</div>
+</div>
+3) group panel also use collapse
+<div class="panel-group">
+<div class="panel panel-info">
+<div class="panel-heading"> <a data-toggle="collapse" href=".collapse1">Collapsible</a> </div>
+ <div id="collapse1" class="panel-collapse collapse collapse1">
+<div class="panel-body"> 
+Lorem ipsum dolor text....
+ </div>
+</div>
+</div>
+<div class="panel panel-info">
+<div class="panel-heading"> <a data-toggle="collapse" href=".collapse2">Collapsible</a> </div>
+ <div id="collapse2" class="panel-collapse collapse collapse2">
+<div class="panel-body"> 
+Lorem ipsum dolor text....
+ </div>
+</div>
+</div>
+</div>
+4) Accordin
+<div class="panel-group" id="accordion">
+<div class="panel panel-info">
+<div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion" href=".collapse1">Collapsible</a> </div>
+ <div id="collapse1" class="panel-collapse collapse collapse1 in">
+<div class="panel-body"> 
+Lorem ipsum dolor text....
+ </div>
+</div>
+</div>
+<div class="panel panel-info">
+<div class="panel-heading"> <a data-toggle="collapse" data-parent="#accordion" href=".collapse2">Collapsible</a> </div>
+ <div id="collapse2" class="panel-collapse collapse collapse2">
+<div class="panel-body"> 
+Lorem ipsum dolor text....
+ </div>
+</div>
+</div>
+</div>
+
+
+
+Tabs
+Tabs are created with <ul class="nav nav-tabs"> with menu:
+
+Pills
+Pills are created with <ul class="nav nav-pills"> with display menu button
+Toggleable / Dynamic Tabs
+nav-pills-->display tab menu
+<ul class="nav nav-tabs">
+  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+  <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+  <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <h3>HOME</h3>
+    <p>Some content.</p>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <h3>Menu 1</h3>
+    <p>Some content in menu 1.</p>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <h3>Menu 2</h3>
+    <p>Some content in menu 2.</p>
+  </div>
+</div>
+
+nav-pills-->display button menu
+<ul class="nav nav-pills">
+  <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+  <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+  <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+</ul>
+
+<div class="tab-content">
+  <div id="home" class="tab-pane fade in active">
+    <h3>HOME</h3>
+    <p>Some content.</p>
+  </div>
+  <div id="menu1" class="tab-pane fade">
+    <h3>Menu 1</h3>
+    <p>Some content in menu 1.</p>
+  </div>
+  <div id="menu2" class="tab-pane fade">
+    <h3>Menu 2</h3>
+    <p>Some content in menu 2.</p>
+  </div>
+</div>
+Navigation 
+A navigation bar is a navigation header that is placed at the top of the page:
+1)navbar-default--default cement
+<nav class="navbar navbar-default">
+<div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Gallery</a></li>
+    </ul>
+  </div>
+</nav>
+
+2)navbar-inverse--default black
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Gallery</a></li>
+	  
+    </ul>
+  </div>
+</nav>
+3) Two menu and Right
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Gallery</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Sign In</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+4) Added Button
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Gallery</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+	<button class="btn btn-primary navbar-btn">Button</button>
+	<button class="btn btn-primary navbar-btn">Button</button>
+	<button class="btn btn-primary navbar-btn">Button</button>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Sign In</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+5)Form Text
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Gallery</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+	<button class="btn btn-primary navbar-btn">Button</button>
+	<form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Sign In</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+6) Header Fixed navbar-fixed-top
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Gallery</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+	<button class="btn btn-primary navbar-btn">Button</button>
+	<form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Sign In</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+7) Header Fixed navbar-fixed-bottom
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+<div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Service</a></li>
+      <li><a href="#">Gallery</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+	<button class="btn btn-primary navbar-btn">Button</button>
+	<form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Sign In</a></li>
+	  <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+8) Collapsing The Navigation Bar
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li> 
+        <li><a href="#">Page 3</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+Form Layouts
+Bootstrap provides three types of form layouts:
+Vertical form (this is default)
+<form name="" id="" action="">
+  <div class="form-group">
+    <label>Name:</label>
+    <input type="text" name="sname" class="form-control" id="sname">
+  </div>
+  <div class="form-group">
+    <label>DOB:</label>
+    <input type="date" name="dob" class="form-control" id="dob">
+  </div>
+  <div class="form-group">
+	 <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  </form>
+
+Horizontal form
+<form class="form-horizontal" name="" id="" action="">
+  <div class="form-group">
+    <label class="control-label col-sm-2">Name:</label>
+	<div class="col-sm-10">
+    <input type="text" name="sname" class="form-control" id="sname">
+  </div></div>
+  <div class="form-group">
+    <label class="control-label col-sm-2">DOB:</label>
+	<div class="col-sm-10">
+    <input type="date" name="dob" class="form-control" id="dob">
+  </div>  </div>
+  <div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </form>
+Inline form
+<form class="form-inline" name="" id="" action="">
+  <div class="form-group">
+    <label>Name:</label>
+    <input type="text" name="sname" class="form-control" id="sname">
+  </div>
+  <div class="form-group">
+    <label>DOB:</label>
+    <input type="date" name="dob" class="form-control" id="dob">
+  </div>
+  <div class="form-group">
+	 <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+  </form>
+   
+ input group form
+<form>
+<div class="col-md-6">
+  <div class="input-group">
+    <span class="input-group-addon"><i class="fa fa-user"></i></span>
+    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+  </div>
+  <div class="input-group">
+    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+  </div>
+  <div class="input-group">
+ <span class="input-group-addon"><i class="fa fa-indent"></i></span>
+    <input id="msg" type="text" class="form-control" name="msg" placeholder="Additional Info">
+  </div>
+    </div>
+</form>
+
+Wrap labels and form controls in <div class="form-group"> (needed for optimum spacing)
+Add class .form-control to all textual text, Password, textarea, and select elements
+
+Not Added Class form-control is radio, checkbox button
+
+
+Size input added class input-lg--large size, input-sm--medium size
+
+
+Media Objects
+Bootstrap provides an easy way to align media objects (like images or videos) to the left or to the right of some content. This can be used to display blog comments, tweets 
+<div class="media">
+  <div class="media-left media-top">
+    <img src="img_avatar1.png" class="media-object" style="width:60px">
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading">John Doe</h4>
+    <p>Lorem ipsum...</p>
+  </div>
+</div>
+Top, Middle or Bottom Alignment
+The media object can also be top, middle or bottom aligned with the media-top, media-middle or media-bottom class:
+
+
+Carousel--it is slider
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="http://i.imgur.com/sDLIAZD.png" alt="Los Angeles">
+	  <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="http://i.imgur.com/xOIMvAe.jpg" alt="Chicago">
+	  <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="http://i.imgur.com/sDLIAZD.png" alt="New York">
+	  <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
+    </div>
+	 <div class="item">
+      <img src="http://i.imgur.com/sDLIAZD.png" alt="New York">
+	  <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
+    </div>
+	
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+Modal popup-->it is similar to dialog box
+
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#txtmd">Open Modal</button>
+
+<a href="#"  data-toggle="modal" data-target="#txtmd">Open Modal</a>
+
+<!-- Modal -->
+<div id="txtmd" class="modal fade" role="dialog" data-keyboard="false" data-backdrop="static">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal Header</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+Tooltip
+<button type="button" data-toggle="tooltip" data-placement="left" class="btn btn-info btn-lg" title="Hi">Open Modal</button>
+<a href="#" data-toggle="tooltip"  data-placement="right" title="Hi">Open Modal</a>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();  
+});
+</script>
+Popup over
+<a href="#" data-toggle="popover" title="Header" data-placement="bottom" data-content="Some content inside the popover">Toggle popover</a>
+<script>
+$(document).ready(function(){
+	  $('[data-toggle="popover"]').popover(); 
+});
+</script>
